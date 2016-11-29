@@ -6,6 +6,8 @@ It's inspired from https://github.com/lloydmeta/slim-play, but it's going furthe
 Basically, everything is in one file, a `Main`, without external references to any configuration.
 It doesn't even run in `app/` anymore, but it's just a classic Scala `Main extends App` to start.
 
+Play! version: 2.5.10
+
 # Code
 
 Here is the whole code in `src`:
