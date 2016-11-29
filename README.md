@@ -59,7 +59,7 @@ object Main extends App {
 All those properties are the strict minimum for Play! to start. (it's mostly `HttpConfiguration()`)
 I'm sure we can bypass that and provide the configuration using the default `case class`es, but I didn't look any further. You can PR if you find out.
 
-We start the application ourselves and wait indefinitely at the end.
+It starts the application manually and wait indefinitely at the end (otherwise the program exits, we need something blocking).
 
 # How to
 
